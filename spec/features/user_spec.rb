@@ -12,10 +12,6 @@ feature 'Adding and Removing Friends' do
     visit '/users'
   end
 
-  scenario 'shows all users in users index page' do
-    expect(page).to have_content 'Name:'
-  end
-
   scenario 'Indicates if user page visited belongs to logged in user' do
     click_on 'User1'
     expect(page).to have_content 'This is you'

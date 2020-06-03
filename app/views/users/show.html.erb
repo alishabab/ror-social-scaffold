@@ -1,5 +1,10 @@
 <section class="user-section">
-  <h2><%= "Name: #{@user.name}" %> </h2>
+  <h2>
+     <figure>
+				<%= gravatar_image_tag(current_user.email, size: 64, alt: current_user.name) %>
+		 </figure>
+    <%=  @user.name %> </h2>
+          
     <br></br>
    <%= button_display(@user) %>
   <article class="timeline">
