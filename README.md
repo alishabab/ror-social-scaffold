@@ -5,18 +5,20 @@
 # Social Media Project
 
 > In this project, we first designed an [ERD diagram](https://github.com/ikraamg/Social-Media/blob/milestone1/docs/Social%20Media%20ERD.pdf) which visually displays the database schema and structure.
-> We then added a friendship functionality using self-referencial relationships to the forked repositry.
-> Finally, we added 51 tests. Including rspec unit tests for the models, rspec controller tests and then capybara integration tests.
+> We then added a friendship functionality using self-referencial relationships to the forked repositry.Database query improvements were made ontop of the friendship funtionality
+> OmniAuth via Twitter is enables, allowing users to login via their twitter accounts.
+> Friends can be added via a request. A request can be cancelled by user or rejected/confirmed by friend.
+> 53 tests are run using rspec unit tests for the models, rspec controller tests and then capybara integration tests.
 
 ## Built With
 
-- Ruby v2.7.0
+- Ruby v2.6.5
 - Ruby on Rails v5.2.4.2
-- Gems used for testing: Capybara, Rspec-Rails, Shoulda-matchers and FactoryBot.
+- Gems used for testing: Capybara, Rspec-Rails, Shoulda-matchers and FactoryBot, OmniAuth
 
 ## Live Demo
 
-TBA
+[Heroku App Link](https://social-mate.herokuapp.com/)
 
 ## Getting Started
 
@@ -63,7 +65,8 @@ Then open a web page and go to [port 3000 on your local machine.](http://localho
 
 ### Deployment
 
-TBA
+The application was deployed on herouku.
+To deploy your own copy, you can follow the following [steps:](https://devcenter.heroku.com/articles/git)
 
 ## Authors
 
@@ -101,4 +104,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse for the [skeleton repository](https://github.com/microverseinc/ror-social-scaffold) which this project was built on.
+Microverse for the [skeleton repository](https://github.com/microverseinc/ror-social-scaffold) which this project was built on.
