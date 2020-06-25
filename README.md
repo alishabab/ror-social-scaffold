@@ -6,9 +6,15 @@
 
 > In this project, we first designed an [ERD diagram](https://github.com/ikraamg/Social-Media/blob/milestone1/docs/Social%20Media%20ERD.pdf) which visually displays the database schema and structure.
 > We then added a friendship functionality using self-referencial relationships to the forked repositry.Database query improvements were made ontop of the friendship funtionality
-> OmniAuth via Twitter is enables, allowing users to login via their twitter accounts.
+> OmniAuth via Twitter is enabled, allowing users to login via their twitter accounts.
 > Friends can be added via a request. A request can be cancelled by user or rejected/confirmed by friend.
-> 53 tests are run using rspec unit tests for the models, rspec controller tests and then capybara integration tests.
+> 51 tests are run using rspec unit tests for the models, rspec controller tests and then capybara integration tests.
+
+![screenshot](screenshot_1.png)
+
+![screenshot](screenshot_2.png)
+
+![screenshot](screenshot_3.png)
 
 ## Built With
 
